@@ -13,4 +13,7 @@ Route::get('/latihan', function() {
     return view('latihan');
 });
 
+Route::get('/latihan', function() {
+    return view('latihan');
+});
 
