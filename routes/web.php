@@ -23,3 +23,6 @@ Route::get('/part2', function() {
     return view('admin/part2');
 })->name('part2');
 
+///hhhhhkkk
+jdjjdjjdjjdjdj
+// jjjjj
