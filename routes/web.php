@@ -35,10 +35,4 @@ Route::get('/part2', function() {
     return view('admin/part2');
 })->name('part2');
 
-Route::get('/part2', function() {
-    return view('admin/part2');
-})->name('part2');
-
-Route::get('/part2', function() {
-    return view('admin/part2');
-})->name('part2');
+// lagi coba2 push // mohon maaf/
