@@ -5,11 +5,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Belajar bersama sang Programmer teruji</title>
+  <title>Flexy Free Bootstrap Admin Template by WrapPixel</title>
   <link rel="shortcut icon" type="image/png" href="{{asset('assets/admin')}}/images/logos/favicon.png" />
   <link rel="stylesheet" href="{{asset('assets/admin/css/styles.min.css')}}" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
 <body>
@@ -40,16 +38,20 @@
             <i class="ti ti-x fs-6"></i>
           </div>
         </div>
+
         <!-- Sidebar navigation-->
         @include('admin/sidebar')
         <!-- End Sidebar navigation -->
       </div>
+
       <!-- End Sidebar scroll-->
     </aside>
     <!--  Sidebar End -->
+
     <!--  Main wrapper -->
     <div class="body-wrapper">
       <!--  Header Start -->
+      
       <header class="app-header">
         <nav class="navbar navbar-expand-lg navbar-light">
           <ul class="navbar-nav">
@@ -66,10 +68,10 @@
               <div class="dropdown-menu dropdown-menu-animate-up" aria-labelledby="drop1">
                 <div class="message-body">
                   <a href="javascript:void(0)" class="dropdown-item">
-                    Notification 1
+                    Item 1
                   </a>
                   <a href="javascript:void(0)" class="dropdown-item">
-                    Notification 2
+                    Item 2
                   </a>
                 </div>
               </div>
@@ -114,52 +116,10 @@
             @yield('content')
             
           </div>
-          <div class="py-6 px-6 text-left">
-            {{-- <p class="mb-0 fs-4">Design and Developed by <a href="#"
-                class="pe-1 text-primary text-decoration-underline">Wrappixel.com</a> Distributed by <a href="https://themewagon.com" target="_blank" >ThemeWagon</a></p> --}}
-                <!-- Footer -->
-        <footer class="bg-dark text-white pt-4 mt-1">
-          <div class="container">
-            <div class="row">
-              <!-- Kontak -->
-              <div class="col-md-6 mb-3">
-                <h5>Kontak Kami</h5>
-                <p>
-                  <i class="bi bi-geo-alt-fill me-2"></i>  
-                  Jln Raya Lemor, Taman Nasional Gunung Rinjani, Desa Sembalun Bumbung
-                </p>
-                <p>
-                  <i class="bi bi-telephone-fill me-2"></i>  
-                  081808506723
-                </p>
-                <p>
-                  <i class="bi bi-envelope-fill me-2"></i>
-                  info@belajarbersama.co.id
-                </p>
-              </div>
-
-        <!-- Sosial Media -->
-                  <div class="col-md-6 mb-3">
-                      <h5>Ikuti Kami</h5>
-                      <a href="https://facebook.com" class="text-white me-3" target="_blank">
-                      <i class="bi bi-facebook fs-4"></i>
-                      </a>
-                      <a href="https://instagram.com" class="text-white me-3" target="_blank">
-                      <i class="bi bi-instagram fs-4"></i>
-                      </a>
-                      <a href="https://wa.me/6281808506723" class="text-white me-3" target="_blank">
-                      <i class="bi bi-whatsapp fs-4"></i>
-                      </a>
-                  </div>
-                  </div>
-
-                  <hr class="border-top border-light" />
-                  <div class="text-center pb-3">
-                     &copy; 2025 group studi. All rights reserved.
-                  </div>
-              </div>
-            </footer>
-            </div>
+          <div class="py-6 px-6 text-center">
+            <p class="mb-0 fs-4">Design and Developed by <a href="#"
+                class="pe-1 text-primary text-decoration-underline">Wrappixel.com</a> Distributed by <a href="https://themewagon.com" target="_blank" >ThemeWagon</a></p>
+          </div>
         </div>
       </div>
     </div>

@@ -2,9 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 // Route::get('/ondi', function() {
 //     return view('selamatmencoba');
@@ -19,26 +19,24 @@ use Illuminate\Support\Facades\Route;
 //dading
 
 
-Route::get('/dash', function() {
+Route::get('/dashboard', function() {
     return view('admin/dashboard');
 })->name('dashboard');
-
-
 
 Route::get('/part1', function() {
     return view('admin/part1');
 })->name('part1');
 
-Route::get('/part1/create', function() {
-    return view('admin/dading/create');
-})->name('create');
 
-Route::get('/part1/edit', function() {
-    return view('admin/dading/create');
-})->name('edit');
 
 Route::get('/part2', function() {
     return view('admin/part2');
 })->name('part2');
 
-// lagi coba2 push // mohon maaf/
+Route::get('/part2', function() {
+    return view('admin/part2');
+})->name('part2');
+
+Route::get('/part2', function() {
+    return view('admin/part2');
+})->name('part2');
