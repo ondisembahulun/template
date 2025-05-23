@@ -29,7 +29,13 @@ Route::get('/part1', function() {
     return view('admin/part1');
 })->name('part1');
 
+Route::get('/part1/create', function() {
+    return view('admin/dading/create');
+})->name('create');
 
+Route::get('/part1/edit', function() {
+    return view('admin/dading/create');
+})->name('edit');
 
 Route::get('/part2', function() {
     return view('admin/part2');
