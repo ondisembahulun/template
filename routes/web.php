@@ -23,20 +23,21 @@ Route::get('/dashboard', function() {
     return view('admin/dashboard');
 })->name('dashboard');
 
-Route::get('/part1', function() {
+Route::get('/dading', function() {
     return view('admin/part1');
 })->name('part1');
-
-
-
-Route::get('/part2', function() {
+Route::get('/dading/create', function() {
+    return view('admin/dading/create');
+})->name('create');
+Route::get('/dading/edit', function() {
+    return view('admin/dading/edit');
+})->name('edit');
+Route::get('/Ikhwan', function() {
     return view('admin/part2');
 })->name('part2');
-
-Route::get('/part2', function() {
-    return view('admin/part2');
-})->name('part2');
-
-Route::get('/part2', function() {
-    return view('admin/part2');
-})->name('part2');
+Route::get('/Ondi', function() {
+    return view('admin/part3');
+})->name('part3');
+Route::get('/Taher', function() {
+    return view('admin/part4');
+})->name('part4');
