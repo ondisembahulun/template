@@ -20,7 +20,7 @@
             <!-- Dashboard -->
             <!-- ---------------------------------- -->
             <li class="sidebar-item">
-              <a class="sidebar-link"  
+              <a class="sidebar-link"
                 href="{{ route('part1') }}" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
                   <span class="d-flex">
@@ -32,8 +32,8 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link"  
-                href="{{ route('part1') }}" aria-expanded="false">
+              <a class="sidebar-link"
+                href="{{ route('part2') }}" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
                   <span class="d-flex">
                     <i class="ti ti-shopping-cart"></i>
@@ -43,8 +43,8 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link"  
-                href="{{ route('part1') }}" aria-expanded="false">
+              <a class="sidebar-link"
+                href="{{ route('part3') }}" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
                   <span class="d-flex">
                     <i class="ti ti-atom"></i>
@@ -57,8 +57,8 @@
               </a>
             </li>
             <li class="sidebar-item">
-              <a class="sidebar-link"  
-                href="{{ route('part2') }}" aria-expanded="false">
+              <a class="sidebar-link"
+                href="{{ route('part4') }}" aria-expanded="false">
                 <div class="d-flex align-items-center gap-3">
                   <span class="d-flex">
                     <i class="ti ti-shopping-cart"></i>
